@@ -1,0 +1,97 @@
+/* Import font styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Styling for entire document */
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+/* Reset elements margin to zero */
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Link style reset */
+a:link, a:visited, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* When user hovers over a link change color with 0.25 transition */
+a:hover {
+    transition: 0.25s linear;
+    color: #d92027;
+}
+
+/* Header styling */
+header {
+    background-color: #d92027;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+/* Main styling */
+main {
+    background: #d92027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1565C0, #d92027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1565C0, #d92027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* About section styling */
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    padding: 0 25vw;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Dices section styling */
+#dices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+#dices img {
+    width: 30vw;
+}
+
+#dices .button {
+    background-color: #d92027;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 15px 45px;
+}
+
+#dices .button:hover {
+    transition: 0.25s linear;
+    transform: rotateZ(5deg);
+}
+
+/* Footer styling */
+footer {
+    border-top: 2px dotted #d92027;
+    background-color: #1565C0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta SEO tags -->
+    <title>Dice Roller</title>
+    <meta name="author" content="Martin Choutka">
+    <meta name="description" content="Dice Roller application">
+    <meta name="keywords" content="Dice, Roller, Dice roller">
+    <!-- Adress bar color -->
+    <meta name="theme-color" content="#d92027">
+    <!-- Favicon package -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <!-- Header -->
+    <header>
+      <h1>Dice Roller</h1>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- About section -->
+      <div id="about">
+        <h2>About</h2>
+        <p>
+          Arguing with your friends who's better at something? Our Dice Roller
+          may help! Playing a table games but don't have any dices that you
+          could play with? That's why our Dice Roller is here!
+        </p>
+      </div>
+      <!-- Dices section -->
+      <div id="dices">
+        <span>
+          <h3>Player 1</h3>
+          <img src="images/dice-1.svg" alt="Dice 1" id="dice-1" />
+        </span>
+        <span class="button" onclick="diceRoller()">Roll the dices!</span>
+        <span>
+          <h3>Player 2</h3>
+          <img src="images/dice-2.svg" alt="Dice 2" id="dice-2" />
+        </span>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>
+        Made by
+        <a href="https://martinchoutka.cz/" target="_blank">Martin Choutka</a>
+      </p>
+      <p>Source code available on <a href="" target="_blank">GitHub</a></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
